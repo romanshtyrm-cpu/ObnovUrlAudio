@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.zaeb.app'
     compileSdkVersion 33
 
     defaultConfig {
@@ -20,8 +21,6 @@ android {
         }
         debug { }
     }
-
-    namespace 'com.zaeb.app'
 }
 
 dependencies {
